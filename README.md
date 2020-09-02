@@ -16,4 +16,8 @@ Deployment instructions
     oc set env dc/kafka-consumer --from=cm/mlflow-cm
 
     oc set env dc/kafka-consumer --from=secret/kie-admin --prefix='BRMS_'
+    
+    url of sample web notification for test this camel
+    https://quay.io/repository/kwkoo/webnotifications?tab=info
     ```
+    
